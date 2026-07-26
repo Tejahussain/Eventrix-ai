@@ -18,38 +18,45 @@ View your app in AI Studio: https://ai.studio/apps/94083734-fd27-4a50-bf5b-6beda
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
-   
-🚀 Eventrix AI
+
+  
+# 🚀 Eventrix AI
+
 Eventrix AI is a personalized AI event planning assistant that helps users create smart event plans based on their requirements, preferences, and budget.
 
 It uses AI to generate recommendations, ideas, schedules, and planning suggestions, reducing the manual effort required for organizing events.
 
-✨ Features
-🤖 AI-powered event planning assistant
-🎯 Personalized event recommendations
-💰 Budget planning assistance
-🎨 Event theme and idea generation
-📅 Schedule planning
-💡 Smart suggestions based on user preferences
-🛠️ Tech Stack
-Frontend
+## ✨ Features
 
-React
-Vite
-TypeScript
-Tailwind CSS
-Backend
+- 🤖 AI-powered event planning assistant
+- 🎯 Personalized event recommendations
+- 💰 Budget planning assistance
+- 🎨 Event theme and idea generation
+- 📅 Schedule planning
+- 💡 Smart suggestions based on user preferences
 
-Node.js
-Express.js
-AI
+## 🛠️ Tech Stack
 
-Google Gemini API
-Tools
+**Frontend**
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
 
-GitHub
-Vercel
-📂 Project Structure
+**Backend**
+- Node.js
+- Express.js
+
+**AI**
+- Google Gemini API
+
+**Tools**
+- GitHub
+- Vercel
+
+## 📂 Project Structure
+
+```
 
 eventrix-project/
 │
@@ -61,32 +68,49 @@ eventrix-project/
 ├── .env.example
 └── README.md
 
-⚙️ Installation
+````
+
+## ⚙️ Installation
+
 Clone the repository:
 
+```bash
 git clone <repository-url>
+````
+
 Install dependencies:
 
+```bash
 npm install
-Create a .env file and add required API keys.
+```
+
+Create a `.env` file and add required API keys.
 
 Run the project:
 
+```bash
 npm run dev
-🧠 How It Works
-User provides event details and preferences.
-AI analyzes the requirements.
-Eventrix AI generates personalized event suggestions.
-User receives an organized event plan.
-🚀 Future Improvements
-User authentication
-Calendar integration
-Vendor recommendations
-Real-time pricing
-Mobile application support
-👨‍💻 Author
-Teja Hussain
+```
 
-📄 License
+## 🧠 How It Works
+
+1. User provides event details and preferences.
+2. AI analyzes the requirements.
+3. Eventrix AI generates personalized event suggestions.
+4. User receives an organized event plan.
+
+## 🚀 Future Improvements
+
+* User authentication
+* Calendar integration
+* Vendor recommendations
+* Real-time pricing
+* Mobile application support
+
+## 👨‍💻 Author
+
+**Teja Hussain**
+
+## 📄 License
+
 This project is licensed under the MIT License.
-
