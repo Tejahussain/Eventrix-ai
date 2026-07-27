@@ -49,6 +49,7 @@ app.post("/api/lyzr", async (req, res) => {
         message: message || "Hello",
       }),
     });
+    console.log("Lyzr response status:", response.status);
 
     if (!response.ok) {
       const errText = await response.text();
